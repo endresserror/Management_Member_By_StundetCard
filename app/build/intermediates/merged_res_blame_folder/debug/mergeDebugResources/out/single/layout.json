@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\adayohack\\.gradle\\daemon\\8.9\\com.example.studentcardsystem.app-mergeDebugResources-33:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\adayohack\\.gradle\\daemon\\8.9\\com.example.studentcardsystem.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\adayohack\\.gradle\\daemon\\8.9\\com.example.studentcardsystem.app-mergeDebugResources-33:\\layout\\dialog_record_settings.xml",
+        "source": "C:\\Users\\adayohack\\.gradle\\daemon\\8.9\\com.example.studentcardsystem.app-main-36:\\layout\\dialog_record_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\adayohack\\.gradle\\daemon\\8.9\\com.example.studentcardsystem.app-mergeDebugResources-33:\\layout\\dialog_email_settings.xml",
+        "source": "C:\\Users\\adayohack\\.gradle\\daemon\\8.9\\com.example.studentcardsystem.app-main-36:\\layout\\dialog_email_settings.xml"
+    },
+    {
+        "merged": "com.example.studentcardsystem.app-mergeDebugResources-33:/layout/dialog_email_settings.xml",
+        "source": "com.example.studentcardsystem.app-main-36:/layout/dialog_email_settings.xml"
+    }
+]

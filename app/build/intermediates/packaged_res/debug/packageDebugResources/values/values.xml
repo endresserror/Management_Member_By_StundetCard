@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">出席管理アプリ</string>
+    <string name="email_failed">メール送信に失敗しました</string>
+    <string name="email_sent">メールを送信しました</string>
+    <string name="invalid_student_id">有効な学籍番号が見つかりません</string>
+    <string name="nfc_disabled">NFCが無効になっています。設定で有効にしてください</string>
+    <string name="nfc_not_supported">このデバイスはNFCをサポートしていません</string>
+    <string name="reading_card">学生証を読み取り中...</string>
+    <string name="student_id_detected">学籍番号: %s</string>
+    <string name="welcome_message">学生証をタッチしてください</string>
+    <style name="Base.Theme.StudentCardSystem" parent="Theme.Material3.DayNight">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+    </style>
+    <style name="Theme.StudentCardSystem" parent="Base.Theme.StudentCardSystem"/>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">出席管理アプリ</string>
+    <string name="welcome_message">学生証をタッチしてください</string>
+    <string name="reading_card">学生証を読み取り中...</string>
+    <string name="email_sent">メールを送信しました</string>
+    <string name="email_failed">メール送信に失敗しました</string>
+    <string name="nfc_not_supported">このデバイスはNFCをサポートしていません</string>
+    <string name="nfc_disabled">NFCが無効になっています。設定で有効にしてください</string>
+    <string name="student_id_detected">学籍番号: %s</string>
+    <string name="invalid_student_id">有効な学籍番号が見つかりません</string>
+</resources>

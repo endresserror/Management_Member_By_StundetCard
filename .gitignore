@@ -1,0 +1,45 @@
+# Android Studio / IntelliJ
+*.iml
+/.idea/
+.gradle
+
+# VS Code
+/.vscode/
+
+# Local configuration
+/local.properties
+
+# Build output
+/build
+/captures
+*.apk
+*.aab
+*.ap_
+
+# Log files
+*.log
+
+# macOS
+.DS_Store
+
+# Keystore file
+*.jks
+*.keystore
+
+# Secrets (if you have a secrets.properties file for API keys etc.)
+secrets.properties
+
+# Android Studio Profiler files
+*.hprof
+*.snapshot
+*.capture
+
+# External native build
+.externalNativeBuild
+.cxx
+
+# Generated files
+# (Add any other generated file patterns specific to your project if needed)
+
+# IMPORTANT: Ensure README.md is NOT ignored
+# (No specific rule needed if it's not matched by above patterns)
