@@ -1,8 +1,8 @@
-#Sat May 31 22:44:55 JST 2025
-base.0=C\:\\Users\\adayohack\\Documents\\Programing\\tducc\\club_ebter_system\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\adayohack\\Documents\\Programing\\tducc\\club_ebter_system\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\adayohack\\Documents\\Programing\\tducc\\club_ebter_system\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.3=C\:\\Users\\adayohack\\Documents\\Programing\\tducc\\club_ebter_system\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+#Sun Jun 01 12:08:27 JST 2025
+base.0=C\:\\Users\\adayohack\\Documents\\Programing\\tducc\\test\\Member_Management_App2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\adayohack\\Documents\\Programing\\tducc\\test\\Member_Management_App2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\adayohack\\Documents\\Programing\\tducc\\test\\Member_Management_App2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.3=C\:\\Users\\adayohack\\Documents\\Programing\\tducc\\test\\Member_Management_App2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=13/classes.dex

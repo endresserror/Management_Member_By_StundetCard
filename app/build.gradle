@@ -35,7 +35,7 @@ android {
     }
     packagingOptions {
         resources.excludes.add('META-INF/NOTICE.md')
-        resources.excludes.add('META-INF/LICENSE.md') // NOTICE.txt と同様に LICENSE.txt も競合することがあるため追加
+        resources.excludes.add('META-INF/LICENSE.md')
     }
 }
 
@@ -48,7 +48,6 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.7.0'
     
     // For email sending
-    // implementation 'javax.mail:javax.mail-api:1.6.2' // Duplicate classのためコメントアウト
     implementation 'com.sun.mail:android-mail:1.6.7'
     implementation 'com.sun.mail:android-activation:1.6.7'
     

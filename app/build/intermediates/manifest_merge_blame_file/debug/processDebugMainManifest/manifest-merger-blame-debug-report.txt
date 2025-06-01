@@ -10,57 +10,57 @@
 10
 11    <!-- NFC permissions -->
 12    <uses-permission android:name="android.permission.NFC" />
-12-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:6:5-62
-12-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:6:22-59
+12-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:6:5-62
+12-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:6:22-59
 13
 14    <uses-feature
-14-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:7:5-9:35
+14-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:7:5-9:35
 15        android:name="android.hardware.nfc"
-15-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:8:9-44
+15-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:8:9-44
 16        android:required="true" />
-16-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:9:9-32
+16-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:9:9-32
 17
 18    <!-- Internet permission for email -->
 19    <uses-permission android:name="android.permission.INTERNET" />
-19-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:12:5-67
-19-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:12:22-64
+19-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:12:5-67
+19-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:12:22-64
 20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-20-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:13:5-79
-20-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:13:22-76
+20-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:13:5-79
+20-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:13:22-76
 21
 22    <!-- Queries for email apps (Android 11+) -->
 23    <queries>
-23-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:16:5-28:15
+23-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:16:5-28:15
 24        <intent>
-24-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:17:9-20:18
+24-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:17:9-20:18
 25            <action android:name="android.intent.action.SENDTO" />
-25-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:18:13-67
-25-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:18:21-64
+25-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:18:13-67
+25-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:18:21-64
 26
 27            <data android:scheme="mailto" />
-27-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:19:13-45
-27-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:19:19-42
+27-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:19:13-45
+27-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:19:19-42
 28        </intent>
 29        <intent>
-29-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:21:9-24:18
+29-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:21:9-24:18
 30            <action android:name="android.intent.action.SEND" />
-30-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:22:13-65
-30-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:22:21-62
+30-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:22:13-65
+30-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:22:21-62
 31
 32            <data android:mimeType="message/rfc822" />
-32-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:19:13-45
-32-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:23:19-52
+32-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:19:13-45
+32-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:23:19-52
 33        </intent>
 34
 35        <package android:name="com.google.android.gm" />
-35-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:25:9-57
-35-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:25:18-54
+35-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:25:9-57
+35-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:25:18-54
 36        <package android:name="com.microsoft.office.outlook" />
-36-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:26:9-64
-36-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:26:18-61
+36-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:26:9-64
+36-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:26:18-61
 37        <package android:name="com.yahoo.mobile.client.android.mail" />
-37-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:27:9-72
-37-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:27:18-69
+37-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:27:9-72
+37-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:27:18-69
 38    </queries>
 39
 40    <permission
@@ -75,132 +75,154 @@
 44-->[androidx.core:core:1.12.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\3465b08f868b73d85b0fa13d6b0ace13\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 45
 46    <application
-46-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:30:5-60:19
+46-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:30:5-67:19
 47        android:allowBackup="true"
-47-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:31:9-35
+47-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:31:9-35
 48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 48-->[androidx.core:core:1.12.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\3465b08f868b73d85b0fa13d6b0ace13\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 49        android:dataExtractionRules="@xml/data_extraction_rules"
-49-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:32:9-65
+49-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:32:9-65
 50        android:debuggable="true"
 51        android:extractNativeLibs="true"
 52        android:fullBackupContent="@xml/backup_rules"
-52-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:33:9-54
+52-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:33:9-54
 53        android:icon="@android:mipmap/sym_def_app_icon"
-53-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:34:9-56
+53-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:34:9-56
 54        android:label="@string/app_name"
-54-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:35:9-41
+54-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:35:9-41
 55        android:roundIcon="@android:mipmap/sym_def_app_icon"
-55-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:36:9-61
+55-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:36:9-61
 56        android:supportsRtl="true"
-56-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:37:9-35
+56-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:37:9-35
 57        android:testOnly="true"
 58        android:theme="@style/Theme.StudentCardSystem" >
-58-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:38:9-55
+58-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:38:9-55
 59        <activity
-59-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:41:9-59:20
+59-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:41:9-66:20
 60            android:name="com.example.studentcardsystem.MainActivity"
-60-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:42:13-41
+60-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:42:13-41
 61            android:exported="true"
-61-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:43:13-36
+61-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:43:13-36
 62            android:launchMode="singleTop" >
-62-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:44:13-43
+62-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:44:13-43
 63            <intent-filter>
-63-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:45:13-48:29
+63-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:45:13-48:29
 64                <action android:name="android.intent.action.MAIN" />
-64-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:46:17-69
-64-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:46:25-66
+64-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:46:17-69
+64-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:46:25-66
 65
 66                <category android:name="android.intent.category.LAUNCHER" />
-66-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:47:17-77
-66-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:47:27-74
+66-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:47:17-77
+66-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:47:27-74
 67            </intent-filter>
-68
-69            <!-- NFC intent filters -->
-70            <intent-filter>
-70-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:51:13-54:29
-71                <action android:name="android.nfc.action.TECH_DISCOVERED" />
-71-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:52:17-77
-71-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:52:25-74
+68            <intent-filter>
+68-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:50:13-54:29
+69                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+69-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:51:17-77
+69-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:51:25-74
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:52:17-76
+71-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:52:27-73
 72
-73                <category android:name="android.intent.category.DEFAULT" />
-73-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:53:17-76
-73-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:53:27-73
+73                <data android:mimeType="*/*" />
+73-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:19:13-45
+73-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:23:19-52
 74            </intent-filter>
-75
-76            <meta-data
-76-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:56:13-58:59
-77                android:name="android.nfc.action.TECH_DISCOVERED"
-77-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:57:17-66
-78                android:resource="@xml/nfc_tech_filter" />
-78-->C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:58:17-56
-79        </activity>
-80
-81        <provider
-81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-82            android:name="androidx.startup.InitializationProvider"
-82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-83            android:authorities="com.example.studentcardsystem.androidx-startup"
-83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-84            android:exported="false" >
-84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-85            <meta-data
-85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-87                android:value="androidx.startup" />
-87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-88            <meta-data
-88-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2b9f3122576180096c55fa40d56c8b20\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
-89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-89-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2b9f3122576180096c55fa40d56c8b20\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
-90                android:value="androidx.startup" />
-90-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2b9f3122576180096c55fa40d56c8b20\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
-91            <meta-data
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-92                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-93                android:value="androidx.startup" />
-93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-94        </provider>
-95
-96        <receiver
-96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-97            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-98            android:directBootAware="false"
-98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-99            android:enabled="true"
-99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-100            android:exported="true"
-100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-101            android:permission="android.permission.DUMP" >
-101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-102            <intent-filter>
-102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-103                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-104            </intent-filter>
-105            <intent-filter>
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-106                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-107            </intent-filter>
-108            <intent-filter>
-108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-109                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-110            </intent-filter>
-111            <intent-filter>
-111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-112                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-113            </intent-filter>
-114        </receiver>
-115    </application>
-116
-117</manifest>
+75            <intent-filter>
+75-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:55:13-58:29
+76                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+76-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:56:17-77
+76-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:56:25-74
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:52:17-76
+78-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:52:27-73
+79            </intent-filter>
+80            <intent-filter>
+80-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:59:13-62:29
+81                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+81-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:60:17-76
+81-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:60:25-73
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:52:17-76
+83-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:52:27-73
+84            </intent-filter>
+85
+86            <meta-data
+86-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:63:13-65:59
+87                android:name="android.nfc.action.TECH_DISCOVERED"
+87-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:64:17-66
+88                android:resource="@xml/nfc_tech_filter" />
+88-->C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:65:17-56
+89        </activity>
+90
+91        <provider
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+93            android:authorities="com.example.studentcardsystem.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2b9f3122576180096c55fa40d56c8b20\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2b9f3122576180096c55fa40d56c8b20\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2b9f3122576180096c55fa40d56c8b20\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+103                android:value="androidx.startup" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+104        </provider>
+105
+106        <receiver
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+107            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+108            android:directBootAware="false"
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+109            android:enabled="true"
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+110            android:exported="true"
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+111            android:permission="android.permission.DUMP" >
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+113                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+116                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+119                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+122                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2f51754998e2945b1acaeefd18de9a01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+123            </intent-filter>
+124        </receiver>
+125    </application>
+126
+127</manifest>

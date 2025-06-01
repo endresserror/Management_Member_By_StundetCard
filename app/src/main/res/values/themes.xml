@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.StudentCardSystem" parent="Theme.Material3.DayNight">
+    <!-- Base application theme. -->    <style name="Base.Theme.StudentCardSystem" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:textColorHighlight">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        
+        <!-- Material Design 3 基本色システム -->
+        <item name="colorOnSurface">@android:color/white</item>
+        <item name="colorOutline">@android:color/white</item>
+        <item name="colorSecondary">@android:color/white</item>
+        
+        <!-- TextInputLayout 基本属性 -->
+        <item name="boxStrokeColor">@android:color/white</item>
+        <item name="hintTextColor">@android:color/white</item>
+        <item name="editTextColor">@android:color/white</item>
     </style>
 
-    <style name="Theme.StudentCardSystem" parent="Base.Theme.StudentCardSystem" />
+    <style name="Theme.StudentCardSystem" parent="Base.Theme.StudentCardSystem" />    <!-- カスタム TextInputLayout スタイル -->
+    <style name="CustomTextInputLayoutStyle" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@android:color/white</item>
+        <item name="hintTextColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="helperTextTextColor">@android:color/white</item>
+        <item name="errorTextColor">@android:color/white</item>
+    </style>
+      <!-- カスタム TextInputEditText スタイル -->
+    <style name="CustomTextInputEditTextStyle" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
 </resources>

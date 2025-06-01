@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:2:1-62:12
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:2:1-69:12
 MERGED from [androidx.databinding:viewbinding:8.7.3] C:\Users\adayohack\.gradle\caches\8.9\transforms\2a3d723661a403ecff5335927f213b40\transformed\viewbinding-8.7.3\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\4f942d546ae6abe19b3c8d62bc5ddd0e\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\adayohack\.gradle\caches\8.9\transforms\655eb506dd1e73dbc79042a65922885a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -50,68 +50,68 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\9853bca2d4cf7976f7af0032e2deb994\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\c0818526125ebac6383082d006f62e9d\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.NFC
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:6:5-62
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:6:5-62
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:6:22-59
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:6:22-59
 uses-feature#android.hardware.nfc
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:7:5-9:35
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:7:5-9:35
 	android:required
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:9:9-32
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:9:9-32
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:8:9-44
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:8:9-44
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:12:5-67
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:12:22-64
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:13:5-79
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:13:22-76
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:13:22-76
 queries
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:16:5-28:15
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:16:5-28:15
 intent#action:name:android.intent.action.SENDTO+data:scheme:mailto
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:17:9-20:18
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:17:9-20:18
 action#android.intent.action.SENDTO
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:18:13-67
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:18:13-67
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:18:21-64
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:18:21-64
 data
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:19:13-45
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:19:13-45
 	android:scheme
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:19:19-42
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:19:19-42
 	android:mimeType
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:23:19-52
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:23:19-52
 intent#action:name:android.intent.action.SEND+data:mimeType:message/rfc822
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:21:9-24:18
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:21:9-24:18
 action#android.intent.action.SEND
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:22:13-65
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:22:13-65
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:22:21-62
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:22:21-62
 package#com.google.android.gm
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:25:9-57
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:25:9-57
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:25:18-54
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:25:18-54
 package#com.microsoft.office.outlook
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:26:9-64
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:26:9-64
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:26:18-61
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:26:18-61
 package#com.yahoo.mobile.client.android.mail
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:27:9-72
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:27:9-72
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:27:18-69
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:27:18-69
 application
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:30:5-60:19
-INJECTED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:30:5-60:19
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:30:5-67:19
+INJECTED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:30:5-67:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\4f942d546ae6abe19b3c8d62bc5ddd0e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\4f942d546ae6abe19b3c8d62bc5ddd0e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\adayohack\.gradle\caches\8.9\transforms\655eb506dd1e73dbc79042a65922885a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -129,65 +129,77 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adayohac
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\adayohack\.gradle\caches\8.9\transforms\41440d7250de54e565adcc709d8edde3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\adayohack\.gradle\caches\8.9\transforms\41440d7250de54e565adcc709d8edde3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\3465b08f868b73d85b0fa13d6b0ace13\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:37:9-35
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:37:9-35
 	android:label
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:35:9-41
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:35:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:33:9-54
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:33:9-54
 	android:roundIcon
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:36:9-61
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:36:9-61
 	tools:targetApi
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:39:9-29
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:39:9-29
 	android:icon
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:34:9-56
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:34:9-56
 	android:allowBackup
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:31:9-35
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:31:9-35
 	android:theme
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:38:9-55
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:38:9-55
 	android:dataExtractionRules
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:32:9-65
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:32:9-65
 activity#com.example.studentcardsystem.MainActivity
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:41:9-59:20
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:41:9-66:20
 	android:launchMode
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:44:13-43
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:44:13-43
 	android:exported
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:43:13-36
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:42:13-41
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:42:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:45:13-48:29
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:45:13-48:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:46:17-69
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:46:25-66
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:47:17-77
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:47:17-77
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:47:27-74
-intent-filter#action:name:android.nfc.action.TECH_DISCOVERED+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:51:13-54:29
-action#android.nfc.action.TECH_DISCOVERED
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:52:17-77
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:47:27-74
+intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:50:13-54:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:51:17-77
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:52:25-74
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:51:25-74
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:53:17-76
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:52:17-76
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:53:27-73
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:52:27-73
+intent-filter#action:name:android.nfc.action.TECH_DISCOVERED+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:55:13-58:29
+action#android.nfc.action.TECH_DISCOVERED
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:56:17-77
+	android:name
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:56:25-74
+intent-filter#action:name:android.nfc.action.TAG_DISCOVERED+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:59:13-62:29
+action#android.nfc.action.TAG_DISCOVERED
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:60:17-76
+	android:name
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:60:25-73
 meta-data#android.nfc.action.TECH_DISCOVERED
-ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:56:13-58:59
+ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:63:13-65:59
 	android:resource
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:58:17-56
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:65:17-56
 	android:name
-		ADDED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml:57:17-66
+		ADDED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml:64:17-66
 uses-sdk
-INJECTED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.7.3] C:\Users\adayohack\.gradle\caches\8.9\transforms\2a3d723661a403ecff5335927f213b40\transformed\viewbinding-8.7.3\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.7.3] C:\Users\adayohack\.gradle\caches\8.9\transforms\2a3d723661a403ecff5335927f213b40\transformed\viewbinding-8.7.3\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\4f942d546ae6abe19b3c8d62bc5ddd0e\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
@@ -279,9 +291,9 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\adayohack\.gradle\caches\8.9\t
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\c0818526125ebac6383082d006f62e9d\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\c0818526125ebac6383082d006f62e9d\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\adayohack\Documents\Programing\tducc\club_ebter_system\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\adayohack\Documents\Programing\tducc\test\Member_Management_App2\app\src\main\AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\127f1d92fb789874a24b202274a4f618\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\adayohack\.gradle\caches\8.9\transforms\2b9f3122576180096c55fa40d56c8b20\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20

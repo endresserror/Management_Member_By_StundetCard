@@ -18,7 +18,33 @@
     <string name="welcome_message">学生証をタッチしてください</string>
     <style name="Base.Theme.StudentCardSystem" parent="Theme.Material3.DayNight">
         
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:textColorHighlight">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        
+        
+        <item name="colorOnSurface">@android:color/white</item>
+        <item name="colorOutline">@android:color/white</item>
+        <item name="colorSecondary">@android:color/white</item>
+        
+        
+        <item name="boxStrokeColor">@android:color/white</item>
+        <item name="hintTextColor">@android:color/white</item>
+        <item name="editTextColor">@android:color/white</item>
+    </style>
+    <style name="CustomTextInputEditTextStyle" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+    <style name="CustomTextInputLayoutStyle" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@android:color/white</item>
+        <item name="hintTextColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="helperTextTextColor">@android:color/white</item>
+        <item name="errorTextColor">@android:color/white</item>
     </style>
     <style name="Theme.StudentCardSystem" parent="Base.Theme.StudentCardSystem"/>
 </resources>

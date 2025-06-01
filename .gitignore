@@ -1,45 +1,62 @@
-# Android Studio / IntelliJ
-*.iml
-/.idea/
-.gradle
+# Android Studio
 
-# VS Code
-/.vscode/
-
-# Local configuration
-/local.properties
-
-# Build output
-/build
-/captures
+# Built application files
 *.apk
 *.aab
-*.ap_
 
-# Log files
-*.log
+# Files for the ART/Dalvik VM
+*.dex
 
-# macOS
-.DS_Store
+# Java class files
+*.class
 
-# Keystore file
-*.jks
-*.keystore
+# Generated files
+bin/
+gen/
+build/
 
-# Secrets (if you have a secrets.properties file for API keys etc.)
-secrets.properties
+# Gradle files
+.gradle/
+local.properties
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Android Studio Navigation Editor files
+.navigation/
 
 # Android Studio Profiler files
 *.hprof
-*.snapshot
-*.capture
 
-# External native build
-.externalNativeBuild
-.cxx
+# Keystore files
+*.jks
+*.keystore
 
-# Generated files
-# (Add any other generated file patterns specific to your project if needed)
+# External native build folder created in Android Studio 2.2 and later
+.externalNativeBuild/
 
-# IMPORTANT: Ensure README.md is NOT ignored
-# (No specific rule needed if it's not matched by above patterns)
+# Google Services (e.g. Firebase)
+google-services.json
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Mac
+.DS_Store
+
+# Captures folder from Android Studio
+captures/
+
+# Log files
+*.log

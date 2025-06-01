@@ -6,6 +6,7 @@ color purple_500
 color purple_700
 color teal_200
 color teal_700
+color text_input_stroke_color
 color white
 drawable ic_launcher_background
 id action_email_settings
@@ -51,6 +52,8 @@ string reading_card
 string student_id_detected
 string welcome_message
 style Base.Theme.StudentCardSystem
+style CustomTextInputEditTextStyle
+style CustomTextInputLayoutStyle
 style Theme.StudentCardSystem
 xml backup_rules
 xml data_extraction_rules

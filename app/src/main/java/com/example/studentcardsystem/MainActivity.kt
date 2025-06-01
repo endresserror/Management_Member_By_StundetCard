@@ -49,15 +49,13 @@ class MainActivity : AppCompatActivity() {
         updateModeDisplay()
         addLog("アプリケーション開始")
 
-        // 利用可能なメールアプリを確認
-        val availableApps = checkAvailableEmailApps() // 修正: 呼び出し自体は問題なさそうだが、周辺のロジックを確認
+        val availableApps = checkAvailableEmailApps()
         if (availableApps.isNotEmpty()) {
             addLog("利用可能なメールアプリ: ${availableApps.joinToString(", ")}")
         } else {
             addLog("メールアプリが見つかりません - SMTP送信を使用してください")
         }
 
-        // 初回起動時にメール設定ダイアログを表示
         if (!sharedPreferences.getBoolean("settings_configured", false)) {
             showEmailSettingsDialog()
         }
@@ -97,17 +95,16 @@ class MainActivity : AppCompatActivity() {
         val radioSmtp = dialogView.findViewById<RadioButton>(R.id.radioSmtp)
         val smtpSettingsLayout = dialogView.findViewById<LinearLayout>(R.id.smtpSettingsLayout)
         val emailAddressInput = dialogView.findViewById<com.google.android.material.textfield.TextInputEditText>(R.id.emailAddressInput)
-        val emailDomainInput = dialogView.findViewById<com.google.android.material.textfield.TextInputEditText>(R.id.emailDomainInput) // 追加
+        val emailDomainInput = dialogView.findViewById<com.google.android.material.textfield.TextInputEditText>(R.id.emailDomainInput)
         val passwordInput = dialogView.findViewById<com.google.android.material.textfield.TextInputEditText>(R.id.passwordInput)
         val subjectInput = dialogView.findViewById<com.google.android.material.textfield.TextInputEditText>(R.id.subjectInput)
         val emailBodyTemplateInput = dialogView.findViewById<com.google.android.material.textfield.TextInputEditText>(R.id.emailBodyTemplateInput)
         val saveButton = dialogView.findViewById<Button>(R.id.saveButton)
         val cancelButton = dialogView.findViewById<Button>(R.id.cancelButton)
 
-        // 既存の設定を読み込み
         val currentSendMethod = sharedPreferences.getString("sendMethod", "gmail")
         emailAddressInput.setText(sharedPreferences.getString("emailAddress", ""))
-        emailDomainInput.setText(sharedPreferences.getString("emailDomain", "")) // デフォルト値を空に変更
+        emailDomainInput.setText(sharedPreferences.getString("emailDomain", ""))
         passwordInput.setText(sharedPreferences.getString("password", ""))
         subjectInput.setText(sharedPreferences.getString("emailSubjectTemplate", "入退室連絡"))
         emailBodyTemplateInput.setText(sharedPreferences.getString("emailBodyTemplate", "%sさんが入室/退室しました。"))
@@ -120,7 +117,6 @@ class MainActivity : AppCompatActivity() {
             smtpSettingsLayout.visibility = View.GONE
         }
 
-        // ラジオボタンの変更でレイアウト制御
         sendMethodGroup.setOnCheckedChangeListener { _, checkedId ->
             smtpSettingsLayout.visibility = if (checkedId == R.id.radioSmtp) View.VISIBLE else View.GONE
         }
@@ -133,11 +129,11 @@ class MainActivity : AppCompatActivity() {
             val editor = sharedPreferences.edit()
             editor.putString("sendMethod", if (radioGmailApp.isChecked) "gmail" else "smtp")
             editor.putString("emailAddress", emailAddressInput.text.toString())
-            editor.putString("emailDomain", emailDomainInput.text.toString()) // 追加
+            editor.putString("emailDomain", emailDomainInput.text.toString())
             editor.putString("password", passwordInput.text.toString())
             editor.putString("emailSubjectTemplate", subjectInput.text.toString())
             editor.putString("emailBodyTemplate", emailBodyTemplateInput.text.toString())
-            editor.putBoolean("settings_configured", true) // 設定済みフラグを立てる
+            editor.putBoolean("settings_configured", true)
             editor.apply()
             addLog("メール設定を保存しました")
             Toast.makeText(this, "設定を保存しました", Toast.LENGTH_SHORT).show()
@@ -147,7 +143,7 @@ class MainActivity : AppCompatActivity() {
         cancelButton.setOnClickListener {
             dialog.dismiss()
         }
-        dialog.setCancelable(false) // ダイアログ外タップで閉じないようにする
+        dialog.setCancelable(false)
         dialog.show()
     }
     
@@ -157,12 +153,12 @@ class MainActivity : AppCompatActivity() {
             val eventName = attendanceManager.getCurrentEvent()
             val recordType = attendanceManager.getCurrentRecordType()
             statusText.text = "記録モード: $eventName ($recordType)"
-            statusText.setBackgroundColor(Color.WHITE) // 背景を白に
-            statusText.setTextColor(Color.BLACK)     // 文字を黒に
+            statusText.setBackgroundColor(Color.WHITE)
+            statusText.setTextColor(Color.BLACK)
         } else {
             statusText.text = "メール送信モード"
-            statusText.setBackgroundColor(Color.BLACK) // 背景を黒に
-            statusText.setTextColor(Color.WHITE)     // 文字を白に
+            statusText.setBackgroundColor(Color.BLACK)
+            statusText.setTextColor(Color.WHITE)
         }
     }
     

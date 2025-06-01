@@ -46,47 +46,47 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:visibility="gone">
-
-        <com.google.android.material.textfield.TextInputLayout
+        android:visibility="gone">        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="送信元メールアドレス"
-            android:layout_marginBottom="8dp">
+            android:layout_marginBottom="8dp"
+            style="@style/CustomTextInputLayoutStyle">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/emailAddressInput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textEmailAddress" />
+                android:inputType="textEmailAddress"
+                style="@style/CustomTextInputEditTextStyle" />
 
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
+        </com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="宛先メールアドレスのドメイン (例: ms.dendai.ac.jp)"
-            android:layout_marginBottom="8dp">
+            android:hint="宛先メールアドレスのドメイン (例: example.com)"
+            android:layout_marginBottom="8dp"
+            style="@style/CustomTextInputLayoutStyle">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/emailDomainInput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textUri" />
+                android:inputType="textUri"
+                style="@style/CustomTextInputEditTextStyle" />
 
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
+        </com.google.android.material.textfield.TextInputLayout>        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="アプリケーションパスワード"
-            android:layout_marginBottom="8dp">
+            android:layout_marginBottom="8dp"
+            style="@style/CustomTextInputLayoutStyle">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/passwordInput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                style="@style/CustomTextInputEditTextStyle" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -98,7 +98,6 @@
             android:textColor="@android:color/darker_gray"
             android:layout_marginBottom="8dp" />    </LinearLayout>
 
-    <!-- メールテンプレート設定 -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -106,28 +105,27 @@
         android:textSize="16sp"
         android:textStyle="bold"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="8dp" />
-
-    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginBottom="8dp" />    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:hint="件名">
+        android:hint="件名"
+        style="@style/CustomTextInputLayoutStyle">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/subjectInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:singleLine="true" />
+            android:singleLine="true"
+            style="@style/CustomTextInputEditTextStyle" />
 
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
+    </com.google.android.material.textfield.TextInputLayout>    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:hint="本文 ( %s を学籍番号に置き換えます)">
+        android:hint="本文 ( %s を学籍番号に置き換えます)"
+        style="@style/CustomTextInputLayoutStyle">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailBodyTemplateInput"
@@ -135,7 +133,8 @@
             android:layout_height="wrap_content"
             android:inputType="textMultiLine"
             android:minLines="3"
-            android:gravity="top"/>
+            android:gravity="top"
+            style="@style/CustomTextInputEditTextStyle"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
